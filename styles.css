@@ -7,7 +7,8 @@ h1 {
     font-size: 60px;
 }
 
-li {
+li,
+button {
     font-weight: bold;
     font-size: 30px;
 }

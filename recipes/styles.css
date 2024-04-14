@@ -1,7 +1,14 @@
+
+
 h1 {
     text-align: center;
     font-size: 50px
 }
+
+.macncheese {
+    background-color: rgb(223, 223, 136);
+}
+        
 
 .description {
     font-size: x-large;
@@ -16,14 +23,45 @@ ul li {
     font-size: large;
 }
 
+button {
+    padding: 10;
+    
+}
+
 button,
 button a {
     background-color: gray;
     color: black;
     font-weight: 200;
-    text-align: center;
+    font-size: large;
+    text-align: center;xdg
+}
+
+button:hover, 
+a:hover{
+    background-color: rgb(53, 53, 53);
 }
 
 h2 {
     text-decoration-line: underline;
+    text-align: center;
+}
+
+.mac {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.macingredients,
+.macsteps {
+    background-color: rgb(228, 173, 77);
+    border-radius: 25px;
+    width:fit-content;
+    border: 5px solid black;
+    padding: 0px 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    
 }
